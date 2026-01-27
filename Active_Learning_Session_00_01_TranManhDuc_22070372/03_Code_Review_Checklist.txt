@@ -1,0 +1,13 @@
+File has .php extension and correct location	__2_/2
+PHP opening tag (<?php) present	_2__/2
+PHP closing tag (?>) present	_2__/2
+Variable assignments for name, studentId, class, email	_3__/3
+At least 4 echo statements displaying variables	_3__/3
+date() function for current date display	_2__/2
+date() function for current time display	__2_/2
+At least one comment line (// or /* */)	__2_/2
+All statements properly end with semicolon	_3__/3
+Code is readable with proper indentation	_2__/2
+No PHP errors when file runs in browser	__3_/3
+Output displays professional appearance	3___/3
+TOTAL SCORE	_30__/30
