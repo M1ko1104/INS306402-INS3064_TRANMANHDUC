@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Chức Năng - Team [Tên Nhóm]</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .box { border: 1px solid #ccc; padding: 15px; width: 300px; }
+        input, button { margin-top: 10px; width: 100%; padding: 8px; }
+    </style>
+</head>
+<body>
+    <h2>Thêm Phần Mềm Mới (Test module Create)</h2>
+    <div class="box">
+        <form action="./api/software/create.php" method="POST">
+            <label>Tên phần mềm:</label>
+            <input type="text" name="name" placeholder="VD: Photoshop CC" required>
+            
+            <label>Nhà cung cấp:</label>
+            <input type="text" name="vendor" placeholder="VD: Adobe" required>
+            
+            <button type="submit">Thêm vào hệ thống</button>
+        </form>
+    </div>
+</body>
+</html>
